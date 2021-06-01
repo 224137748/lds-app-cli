@@ -8,6 +8,7 @@ const program = require('commander');
 const updateCheckPackage = require('../lib/update');
 const setMirror = require('../lib/mirror');
 const downloadTemplate = require('../lib/download');
+const initProject = require('../lib/init');
 
 program.version(require('../package.json').version, '-v, --version');
 
@@ -29,6 +30,16 @@ program
   .command('template')
   .description('Download template from mirror.')
   .action(() => downloadTemplate());
+
+
+
+// init 初始化项目
+program
+  .name('lds-app-cli')
+  .usage('<commands> [options]')
+  .command('init <project_name>')
+  .description('Create a web App.')
+  .action(project => initProject(project));
 
 // 解析命令行参数
 program.parse(process.argv);
