@@ -4,7 +4,7 @@
   "description": "",
   "main": "./bin/index.js",
   "bin": {
-    "lds-app-cli": "./bin/index.js"
+    "lds": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,16 +13,40 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
     "chalk": "^4.1.1",
     "clear": "^0.1.0",
     "commander": "^7.2.0",
+    "css-loader": "^5.2.6",
     "download": "^8.0.0",
     "figlet": "^1.5.0",
+    "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
+    "html-webpack-plugin": "^4.5.2",
     "inquirer": "^8.1.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
     "log-symbols": "^5.0.0",
+    "open-browser-webpack-plugin": "^0.0.5",
     "ora": "^5.4.0",
-    "update-notifier": "^5.1.0"
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.2",
+    "update-notifier": "^5.1.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "16.0.0-beta.4",
+    "vue-template-compiler": "^2.6.13",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-progress-bar": "^1.2.1"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "vue": "^3.0.11",
+    "vue-router": "4",
+    "vuex": "^4.0.1"
   }
 }

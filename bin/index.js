@@ -9,6 +9,7 @@ const updateCheckPackage = require('../lib/update');
 const setMirror = require('../lib/mirror');
 const downloadTemplate = require('../lib/download');
 const initProject = require('../lib/init');
+const start = require('../lib/start');
 
 program.version(require('../package.json').version, '-v, --version');
 
@@ -37,9 +38,16 @@ program
 program
   .name('lds-app-cli')
   .usage('<commands> [options]')
-  .command('init <project_name>')
+  .command('init <project_path>')
   .description('Create a web App.')
   .action(project => initProject(project));
+
+// 启动项目
+program
+  .command('start <project_path>')
+  .option('-p --port <port>', '端口', 3000)
+  .description('Running project.')
+  .action((projectPath, { port }) => start(projectPath, port));
 
 // 解析命令行参数
 program.parse(process.argv);
