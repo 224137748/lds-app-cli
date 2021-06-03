@@ -1,0 +1,1 @@
+export const message = '你好，李银河';
