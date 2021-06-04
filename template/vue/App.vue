@@ -19,7 +19,6 @@ export default {
 
     const handleClick = () => {
       count.value++;
-      console.log(count.value);
     };
 
     return {

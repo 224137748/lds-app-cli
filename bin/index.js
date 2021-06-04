@@ -7,6 +7,8 @@ const updateCheckPackage = require('../lib/update');
 const initProject = require('../lib/init');
 const start = require('../lib/start');
 const create = require('../lib/create');
+const build = require('../lib/build');
+
 
 program.version(require('../package.json').version, '-v, --version');
 
@@ -39,6 +41,12 @@ program
   .option('-p --port <port>', '端口', 3000)
   .description('Running a web app.')
   .action((projectPath, { port }) => start(projectPath, port));
+
+// 打包项目
+program
+  .command('build <project_path>')
+  .description('Build a web app.')
+  .action(projectPath => build(projectPath));
 
 // 解析命令行参数
 program.parse(process.argv);
