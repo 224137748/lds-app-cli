@@ -1219,6 +1219,13 @@ clean-css@^4.2.3:
   dependencies:
     source-map "~0.6.0"
 
+clean-webpack-plugin@^4.0.0-alpha.0:
+  version "4.0.0-alpha.0"
+  resolved "https://registry.npm.taobao.org/clean-webpack-plugin/download/clean-webpack-plugin-4.0.0-alpha.0.tgz#2aef48dfe7565360d128f5caa0904097d969d053"
+  integrity sha1-Ku9I3+dWU2DRKPXKoJBAl9lp0FM=
+  dependencies:
+    del "^4.1.1"
+
 clear@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npm.taobao.org/clear/download/clear-0.1.0.tgz#b81b1e03437a716984fd7ac97c87d73bdfe7048a"
