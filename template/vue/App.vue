@@ -1,37 +1,27 @@
 <template>
-  <div>
-    <hello-world :msg="'你好啊，李银河！'" />
-    <h1>{{ count }}</h1>
-    <button @click="handleClick">按钮</button>
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3 + TypeScript + lds-app-cli" />
 </template>
 
-<script>
-import { ref } from "vue";
+<script lang="ts">
+import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
-export default {
-  name: "app",
+
+export default defineComponent({
+  name: "App",
   components: {
     HelloWorld,
   },
-  setup: () => {
-    const count = ref(0);
-
-    const handleClick = () => {
-      count.value++;
-    };
-
-    return {
-      count,
-      handleClick,
-    };
-  },
-};
+});
 </script>
 
-<style lang="less">
-* {
-  padding: 0;
-  margin: 0;
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

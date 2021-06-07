@@ -9,8 +9,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "vue",
+    "lds-cli"
+  ],
+  "author": {
+    "name": "jrzhang",
+    "url": "https://github.com/224137748/lds-app-cli",
+    "email": "snoopy_zuozuo@qq.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "chalk": "^4.1.1",
@@ -22,12 +30,13 @@
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "handlebars": "^4.7.7",
+    "hard-source-webpack-plugin": "^0.13.1",
     "html-webpack-plugin": "^4.5.2",
     "inquirer": "^8.1.0",
     "log-symbols": "^5.0.0",
     "mini-css-extract-plugin": "^1.6.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
     "ora": "^5.4.0",
-    "simple-progress-webpack-plugin": "^2.0.0",
     "ts-loader": "^9.2.2",
     "update-notifier": "^5.1.0",
     "url-loader": "^4.1.1",
@@ -35,7 +44,8 @@
     "vue-template-compiler": "^2.6.13",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.12",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpackbar": "^5.0.0-3"
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.0.11",

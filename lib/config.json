@@ -1,1 +1,4 @@
-{"rootPath":"C:\\study\\app-test","template":"https://github.com/224137748/cli-template/archive/refs/heads/main.zip"}
+{
+  "rootPath": "C:\\study\\cli-template",
+  "template": "https://github.com/224137748/cli-template/archive/refs/heads/main.zip"
+}

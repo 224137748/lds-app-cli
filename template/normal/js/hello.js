@@ -1,1 +1,1 @@
-export const message = '你好，李银河';
+export const message = `I'm fine, 3QU`;
