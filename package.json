@@ -1,6 +1,6 @@
 {
   "name": "lds-app-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
@@ -19,8 +19,12 @@
     "url": "https://github.com/224137748/lds-app-cli",
     "email": "snoopy_zuozuo@qq.com"
   },
-  "license": "ISC",
-  "devDependencies": {
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "vue": "^3.0.11",
+    "vue-router": "4",
+    "vuex": "^4.0.1",
     "chalk": "^4.1.1",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "clear": "^0.1.0",
@@ -45,11 +49,5 @@
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "^3.11.2",
     "webpackbar": "^5.0.0-3"
-  },
-  "dependencies": {
-    "@vue/compiler-sfc": "^3.0.11",
-    "vue": "^3.0.11",
-    "vue-router": "4",
-    "vuex": "^4.0.1"
   }
 }
