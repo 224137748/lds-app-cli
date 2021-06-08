@@ -220,11 +220,6 @@
     "@vue/compiler-dom" "3.0.11"
     "@vue/shared" "3.0.11"
 
-"@vue/devtools-api@^6.0.0-beta.10", "@vue/devtools-api@^6.0.0-beta.11":
-  version "6.0.0-beta.12"
-  resolved "https://registry.nlark.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.12.tgz?cache=0&sync_timestamp=1622269232979&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fdevtools-api%2Fdownload%2F%40vue%2Fdevtools-api-6.0.0-beta.12.tgz#693ffc77bfb66b080e5c9576abb5786c85470a32"
-  integrity sha1-aT/8d7+2awgOXJV2q7V4bIVHCjI=
-
 "@vue/reactivity@3.0.11":
   version "3.0.11"
   resolved "https://registry.nlark.com/@vue/reactivity/download/@vue/reactivity-3.0.11.tgz?cache=0&sync_timestamp=1622665413207&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Freactivity%2Fdownload%2F%40vue%2Freactivity-3.0.11.tgz#07b588349fd05626b17f3500cbef7d4bdb4dbd0b"
@@ -3573,11 +3568,6 @@ is-unicode-supported@^0.1.0:
   resolved "https://registry.npm.taobao.org/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
   integrity sha1-PybHaoCVk7Ur+i7LVxDtJ3m1Iqc=
 
-is-unicode-supported@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/is-unicode-supported/download/is-unicode-supported-1.0.0.tgz#57284e13e7f5caefc7a45168285227e5c47d6413"
-  integrity sha1-VyhOE+f1yu/HpFFoKFIn5cR9ZBM=
-
 is-windows@^1.0.1, is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://registry.nlark.com/is-windows/download/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
@@ -3811,14 +3801,6 @@ log-symbols@^4.1.0:
   dependencies:
     chalk "^4.1.0"
     is-unicode-supported "^0.1.0"
-
-log-symbols@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npm.taobao.org/log-symbols/download/log-symbols-5.0.0.tgz?cache=0&sync_timestamp=1618723146520&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flog-symbols%2Fdownload%2Flog-symbols-5.0.0.tgz#7720d3c6a56c365e1f658916069ba18d941092ca"
-  integrity sha1-dyDTxqVsNl4fZYkWBpuhjZQQkso=
-  dependencies:
-    chalk "^4.1.0"
-    is-unicode-supported "^1.0.0"
 
 loglevel@^1.6.8:
   version "1.7.1"
@@ -6366,13 +6348,6 @@ vue-loader@16.0.0-beta.4:
     merge-source-map "^1.1.0"
     source-map "^0.6.1"
 
-vue-router@4:
-  version "4.0.8"
-  resolved "https://registry.nlark.com/vue-router/download/vue-router-4.0.8.tgz#55d4290a3122444edbc91a3cd2492bb1d0cef494"
-  integrity sha1-VdQpCjEiRE7byRo80kkrsdDO9JQ=
-  dependencies:
-    "@vue/devtools-api" "^6.0.0-beta.10"
-
 vue-template-compiler@^2.6.13:
   version "2.6.13"
   resolved "https://registry.nlark.com/vue-template-compiler/download/vue-template-compiler-2.6.13.tgz?cache=0&sync_timestamp=1622557770316&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-template-compiler%2Fdownload%2Fvue-template-compiler-2.6.13.tgz#a735b8974e013ce829e7f77e08e4ee5aecbd3005"
@@ -6389,13 +6364,6 @@ vue@^3.0.11:
     "@vue/compiler-dom" "3.0.11"
     "@vue/runtime-dom" "3.0.11"
     "@vue/shared" "3.0.11"
-
-vuex@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.nlark.com/vuex/download/vuex-4.0.1.tgz#e83c541d6f31173969efabb2c5d1c465b682887e"
-  integrity sha1-6DxUHW8xFzlp76uyxdHEZbaCiH4=
-  dependencies:
-    "@vue/devtools-api" "^6.0.0-beta.11"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"

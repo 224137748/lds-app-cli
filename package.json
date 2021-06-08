@@ -1,6 +1,6 @@
 {
   "name": "lds-app-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "./bin/index.js",
   "bin": {
@@ -22,9 +22,6 @@
   "license": "MIT",
   "dependencies": {
     "@vue/compiler-sfc": "^3.0.11",
-    "vue": "^3.0.11",
-    "vue-router": "4",
-    "vuex": "^4.0.1",
     "chalk": "^4.1.1",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "clear": "^0.1.0",
@@ -37,12 +34,12 @@
     "hard-source-webpack-plugin": "^0.13.1",
     "html-webpack-plugin": "^4.5.2",
     "inquirer": "^8.1.0",
-    "log-symbols": "^5.0.0",
     "mini-css-extract-plugin": "^1.6.0",
     "optimize-css-assets-webpack-plugin": "^6.0.0",
     "ora": "^5.4.0",
     "update-notifier": "^5.1.0",
     "url-loader": "^4.1.1",
+    "vue": "^3.0.11",
     "vue-loader": "16.0.0-beta.4",
     "vue-template-compiler": "^2.6.13",
     "webpack": "4.43.0",
